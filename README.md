@@ -41,9 +41,9 @@
 ## Choose alternative
 
 - Solve tasks from this repo
-  - In JavaScript
+  - In JavaScript: https://github.com/HowProgrammingWorks/Winter-2025-Exams/tree/main/Tasks
   - If you prefer any other language instead of JavaScript then translate the code into your language as close as possible
-- 
+- Here is more difficult tasks in addition or instead of previous: https://github.com/HowProgrammingWorks/Winter-2025-Exams/tree/main/Difficult
 - Open-source contribution: submit to google forms
 - Conference talk or seminar participation: submit link to google forms
 - For those who want technical interview: submit link to google forms
