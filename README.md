@@ -29,7 +29,7 @@
 
 ## Steps to pass the exam
 
-- Choose one or more of alternatives
+- Choose [one or more of alternatives](https://github.com/HowProgrammingWorks/Winter-2025-Exams/blob/main/README.md#choose-alternative)
 - Clone and fill self assessment repo: https://github.com/HowProgrammingWorks/SelfAssessment
   - Fill your skills before course in branch: `main`
   - Fill your skills after course in branch: `2025-winter`
