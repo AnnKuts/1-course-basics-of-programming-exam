@@ -1,7 +1,10 @@
 // Refactor following solution
 // Get day number
+// Step 0: Used Prettier
+// Step 1: Added "use strict"
+"use strict";
 
-let D = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+let D = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 _parse_day_ = (s) => {
   let i;
