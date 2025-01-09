@@ -1,5 +1,8 @@
 // Refactor following solution
 // Generate random integer value in given range
+// Step 0: Used eslint and prettier
+// Step 1: Added "use strict"
+"use strict";
 
 Random = (min, max) => {
   if (max === undefined) {
