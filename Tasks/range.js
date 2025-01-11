@@ -1,5 +1,8 @@
 // Refactor following solution
 // Generate int array from given range
+// Step 0: Used eslint and prettier
+// Step 1: Added "use strict"
+"use strict";
 
 _range = (...Range) => {
   let [from, to] = Range;
