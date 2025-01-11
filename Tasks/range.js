@@ -2,10 +2,11 @@
 // Generate int array from given range
 // Step 0: Used eslint and prettier
 // Step 1: Added "use strict"
+// Step 2: Added const, declared function
 "use strict";
 
-_range = (...Range) => {
-  let [from, to] = Range;
+const _range = (...Range) => {
+  const [from, to] = Range;
   if (to >= from) {
     Range = new Array(to - from + 1);
     for (let i = from; i <= to; i++) {
