@@ -3,7 +3,7 @@
 // Step 0: Used eslint and prettier
 // Step 1: Added "use strict"
 // Step 2: Added const
-// Step 3: Changed logic, so when we have only one number in input it generates a number between 0 and given number
+// Step 3: Simplified function
 "use strict";
 
 const random = (min, max) => {
