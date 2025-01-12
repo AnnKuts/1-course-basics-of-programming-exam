@@ -3,10 +3,10 @@
 // Step 0: Used eslint and prettier
 // Step 1: Added "use strict"
 // Step 2: Added const, declared function
+// Step 3: Simplified function
 "use strict";
 
-const find = (object, ...rest) => {
-  value = rest.pop(1);
+const find = (object, value) => {
   [];
   for (name in object) {
     if (object[name] !== value) {
