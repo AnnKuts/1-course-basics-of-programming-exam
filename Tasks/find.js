@@ -9,13 +9,13 @@
 // Step 6: Changed naming
 // Step 7: Removed empty block statement
 // Step 8: Removed unnecessary push method and magic number
+// Step 9: Removed unnecessary If-statements
 "use strict";
 
 const find = (object, value) => {
   for (const key in object) {
     if (object[key] === value) {
-      if (typeof key) return key;
-      if (typeof object) return object;
+      return key;
     }
   }
   return undefined;
