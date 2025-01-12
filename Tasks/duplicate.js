@@ -4,12 +4,13 @@
 // Step 1: Added "use strict"
 // Step 2: Added const, declared function
 // Step 3: Changed naming, switched to CamelCase
+// Step 4: Declared and initialized result
 "use strict";
 
 const duplicate = (value, n) => {
   if (n <= 0) return [];
   else {
-    res = [];
+    const res = [];
     for (let i = 0; i < n; i++) {
       res[i] = value;
     }
