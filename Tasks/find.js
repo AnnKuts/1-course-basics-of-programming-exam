@@ -2,9 +2,10 @@
 // Find key by value
 // Step 0: Used eslint and prettier
 // Step 1: Added "use strict"
+// Step 2: Added const, declared function
 "use strict";
 
-find = (object, ...rest) => {
+const find = (object, ...rest) => {
   value = rest.pop(1);
   [];
   for (name in object) {
