@@ -11,9 +11,10 @@
 // Step 8: Removed unnecessary push method and magic number
 // Step 9: Removed unnecessary If-statements
 // Step 10: Everything works fine, but we should avoid for...in, so changed it with for...of, used destructuring and Object.entries() method
+// Step 11: Changed naming again to make it more readable
 "use strict";
 
-const find = (object, value) => {
+const findKey = (object, value) => {
   for (const [key, objectValue] of Object.entries(object)) {
     if (objectValue === value) {
       return key;
@@ -22,4 +23,4 @@ const find = (object, value) => {
   return undefined;
 };
 
-module.exports = find;
+module.exports = findKey;
