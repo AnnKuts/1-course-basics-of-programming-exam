@@ -6,13 +6,14 @@
 // Step 3: Simplified function
 // Step 4: Removed empty block
 // Step 5: Declared variable
+// Step 6: Changed naming
 "use strict";
 
 const find = (object, value) => {
-  for (const name in object) {
-    if (object[name] !== value) {
+  for (const key in object) {
+    if (object[key] === value) {
     } else {
-      if (typeof name) return name;
+      if (typeof key) return key;
       if (typeof object) return object;
     }
   }
