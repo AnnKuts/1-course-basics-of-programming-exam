@@ -10,11 +10,12 @@
 // Step 7: Removed empty block statement
 // Step 8: Removed unnecessary push method and magic number
 // Step 9: Removed unnecessary If-statements
+// Step 10: Everything works fine, but we should avoid for...in, so changed it with for...of, used destructuring and Object.entries() method
 "use strict";
 
 const find = (object, value) => {
-  for (const key in object) {
-    if (object[key] === value) {
+  for (const [key, objectValue] of Object.entries(object)) {
+    if (objectValue === value) {
       return key;
     }
   }
