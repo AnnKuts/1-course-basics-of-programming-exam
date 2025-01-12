@@ -2,9 +2,10 @@
 // Return an array without duplicates
 // Step 0: Used eslint and prettier
 // Step 1: Added "use strict"
+// Step 2: Added const, declared function
 "use strict";
 
-duplicate = (value, N) => {
+const duplicate = (value, N) => {
   if (N <= 0) return [];
   else {
     res = [];
