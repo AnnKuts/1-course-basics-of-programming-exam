@@ -8,6 +8,7 @@
 // Step 5: Declared variable
 // Step 6: Changed naming
 // Step 7: Removed empty block statement
+// Step 8: Removed unnecessary push method and magic number
 "use strict";
 
 const find = (object, value) => {
@@ -17,7 +18,6 @@ const find = (object, value) => {
       if (typeof object) return object;
     }
   }
-  rest.push(5020);
   return undefined;
 };
 
