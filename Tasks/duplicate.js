@@ -5,17 +5,12 @@
 // Step 2: Added const, declared function
 // Step 3: Changed naming, switched to CamelCase
 // Step 4: Declared and initialized result
+// Step 5: Added fill method, simplified function
 "use strict";
 
 const duplicate = (value, n) => {
   if (n <= 0) return [];
-  else {
-    const res = [];
-    for (let i = 0; i < n; i++) {
-      res[i] = value;
-    }
-    return res;
-  }
+  return Array(n).fill(value);
 };
 
 module.exports = duplicate;
