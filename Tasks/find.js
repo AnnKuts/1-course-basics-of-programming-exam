@@ -5,10 +5,11 @@
 // Step 2: Added const, declared function
 // Step 3: Simplified function
 // Step 4: Removed empty block
+// Step 5: Declared variable
 "use strict";
 
 const find = (object, value) => {
-  for (name in object) {
+  for (const name in object) {
     if (object[name] !== value) {
     } else {
       if (typeof name) return name;
