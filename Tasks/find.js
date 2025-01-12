@@ -7,12 +7,12 @@
 // Step 4: Removed empty block
 // Step 5: Declared variable
 // Step 6: Changed naming
+// Step 7: Removed empty block statement
 "use strict";
 
 const find = (object, value) => {
   for (const key in object) {
     if (object[key] === value) {
-    } else {
       if (typeof key) return key;
       if (typeof object) return object;
     }
