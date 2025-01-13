@@ -10,4 +10,4 @@ const cases = [
   [[{ a: 1, b: 2, c: "hello", d: true }, true], "d"],
 ];
 
-check(cases)("findKey");
+check(cases)("find");
