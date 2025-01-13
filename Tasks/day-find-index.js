@@ -18,8 +18,8 @@ const days = [
   "saturday",
 ];
 
-const parseDay = (s) => {
-  const dayIndex = days.findIndex((day) => day === s);
+const parseDay = (string) => {
+  const dayIndex = days.findIndex((day) => day === string);
   return dayIndex === -1 ? dayIndex : dayIndex + 1;
 };
 
