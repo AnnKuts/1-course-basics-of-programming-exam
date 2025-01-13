@@ -4,6 +4,7 @@
 // Step 1: Added "use strict"
 // Step 2: Added const
 // Step 3: Simplified function, used DRY principle
+
 "use strict";
 
 const random = (min, max) => {

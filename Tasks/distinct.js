@@ -6,6 +6,7 @@
 // Step 3: Changed naming to CamelCase
 // Step 4: Used for...of instead of forEach, avoid using forEach and delete, removed unnecessary filter, changed data to array, so made it more readable
 // Step 5: Everything works fine, but we can optimize this code even more by just creating a Set of array and return it
+
 "use strict";
 
 const distinct = (array) => {

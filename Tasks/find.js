@@ -12,6 +12,7 @@
 // Step 9: Removed unnecessary if-statements
 // Step 10: Everything works fine, but we should avoid for...in, so changed it with for...of, used destructuring and Object.entries() method
 // Step 11: Changed naming again to make it more readable
+
 "use strict";
 
 const findKey = (object, value) => {

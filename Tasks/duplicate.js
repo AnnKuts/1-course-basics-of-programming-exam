@@ -6,6 +6,7 @@
 // Step 3: Changed naming, switched to CamelCase
 // Step 4: Declared and initialized result
 // Step 5: Added fill() method, simplified function
+
 "use strict";
 
 const duplicate = (value, n) => {
