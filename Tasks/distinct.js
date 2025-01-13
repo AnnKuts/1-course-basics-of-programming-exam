@@ -4,20 +4,17 @@
 // Step 1: Added "use strict"
 // Step 2: Added const and let, declared variables
 // Step 3: Changed naming to CamelCase
+// Step 4: Used for...of instead of forEach, avoid using forEach and delete, removed unnecessary filter, changed data to array, so made it more readable
 "use strict";
 
-const distinct = (data) => {
+const distinct = (array) => {
   const unique = new Set();
-  let index = 0;
-  data.forEach((x) => {
-    if (unique.has(x)) {
-      delete data[index];
-    } else {
-      unique.add(x);
+  for (const item of array) {
+    if (!unique.has(item)) {
+      unique.add(item);
     }
-    index++;
-  });
-  return data.filter((x) => typeof x === "number");
+  }
+  return [...unique];
 };
 
 module.exports = distinct;
