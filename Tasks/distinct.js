@@ -3,20 +3,21 @@
 // Step 0: Used Prettier and ESLint
 // Step 1: Added "use strict"
 // Step 2: Added const and let, declared variables
+// Step 3: Changed naming to CamelCase
 "use strict";
 
-const DISTINCT = (data) => {
-  const A = new Set();
-  let w = 0;
-  data.forEach((a) => {
-    if (A.has(a)) {
-      delete data[w];
+const distinct = (data) => {
+  const unique = new Set();
+  let index = 0;
+  data.forEach((x) => {
+    if (unique.has(x)) {
+      delete data[index];
     } else {
-      A.add(a);
+      unique.add(x);
     }
-    w++;
+    index++;
   });
   return data.filter((x) => typeof x === "number");
 };
 
-module.exports = DISTINCT;
+module.exports = distinct;
