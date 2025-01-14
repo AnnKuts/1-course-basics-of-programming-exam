@@ -20,7 +20,7 @@ const days = [
 
 const parseDay = (string) => {
   const dayIndex = days.indexOf(string);
-  return dayIndex >= 0 ? dayIndex + 1 : -1;
+  return dayIndex + 1 || -1;
 };
 
 module.exports = parseDay;
