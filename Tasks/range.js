@@ -9,11 +9,11 @@
 
 "use strict";
 
-const range = (...range) => {
-  const [from, to] = range;
-  const result = [];
+const range = (from, to) => {
+  if (to <= from) return [];
+  const result = new Array(to - from + 1);
   for (let i = from; i <= to; i++) {
-    result.push(i);
+    result[i - from] = i;
   }
   return result;
 };
