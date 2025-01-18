@@ -9,9 +9,6 @@
 
 "use strict";
 
-const duplicate = (value, n) => {
-  if (n <= 0) return [];
-  return Array(n).fill(value);
-};
+const duplicate = (value, n) => new Array(n).fill(value);
 
 module.exports = duplicate;
